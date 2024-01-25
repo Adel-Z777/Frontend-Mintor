@@ -1,0 +1,235 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(0, 0%, 98%);
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.nav-bar {
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar .logo {
+  margin: 0 0 0 45px;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.nav-bar .navigator {
+  /* border: solid; */
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 25px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.nav-bar .navigator a {
+  padding: 0 20px;
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav-bar .navigator a:hover {
+  color: hsl(0, 0%, 8%);
+  font-weight: bold;
+}
+
+.features, .company {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.svg1 {
+  margin-left: -10px;
+}
+
+.svg2 {
+  margin-left: -10px;
+  display: none;
+}
+
+.svg3 {
+  margin-left: -10px;
+}
+
+.svg4 {
+  margin-left: -10px;
+  display: none;
+}
+
+.downbar {
+  position: absolute;
+  display: block;
+  width: 145px;
+  height: 155px;
+  border: none;
+  border-radius: 7px;
+  transform: translate(-50px, 100px);
+  box-shadow: 3px 7px 50px rgb(0, 0, 0, 0.2);
+}
+
+.downbar .to {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  margin-left: 25px;
+}
+
+.downbar .to svg {
+  position: fixed;
+}
+
+.downbar .to a {
+  padding-left: 30px;
+  font-size: 14px;
+  color: hsl(0, 0%, 41%);
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.downbar2 {
+  position: absolute;
+  display: none;
+  width: 110px;
+  height: 120px;
+  border: none;
+  border-radius: 7px;
+  transform: translate(18px, 85px);
+  box-shadow: 3px 7px 50px rgb(0, 0, 0, 0.2);
+}
+
+.company .downbar2 a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  padding-top: 18px;
+  font-size: 14px;
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+}
+
+.btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 72%;
+}
+
+.btn button {
+  width: 100px;
+  height:40px;
+  background: transparent;
+  border-radius: 13px;
+  margin: 10px;
+  font-size: 15px;
+  color: hsl(0, 0%, 41%);
+  cursor: pointer;
+  font-weight: bold;
+  border-color: hsl(0, 0%, 41%);
+  transition: .5s;
+}
+
+.btn button:hover {
+  color: hsl(0, 0%, 8%);
+  border-color: hsl(0, 0%, 8%);
+  font-weight: bold;
+}
+
+.btn .btn-login {
+  border: none;
+}
+
+.btn .btn-register {
+  border-style: solid;
+}
+
+.content {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content .all {
+  margin-top: 10%;
+  padding-left: 5%;
+}
+
+.content .text-content {
+  height: 90%;
+  font-family: sans-serif;
+}
+
+.content .text-content h1 {
+  color: hsl(0, 0%, 8%);
+  font-size: 80px;
+}
+
+.content .text-content p {
+  width: 400px;
+  color: hsl(0, 0%, 41%);
+  font-size: 18px;
+  justify-content: space-between;
+  margin: 40px 0;
+  line-height: 25px;
+} 
+
+.content .btn-more {
+  width: 140px;
+  height: 50px;
+  color: hsl(0, 0%, 98%);
+  background-color: hsl(0, 0%, 8%);
+  font-size: 18px;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.content .btn-more:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 8%);
+}
+
+.content .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image img {
+  width: 450px;
+  height: 600px;
+  margin-top: 20%;
+  margin-left: -10%;
+}
